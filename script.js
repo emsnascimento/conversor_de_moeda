@@ -3,7 +3,7 @@ function converterParaDolar() {
   var valor = valorElemento.value;
   var valorNumericoEmReal = parseFloat(valor);
 
-  var valorEmDolar = valorNumericoEmReal * 5.06;
+  var valorEmDolar = valorNumericoEmReal / 5.06;
   valorEmDolar = valorEmDolar.toLocaleString('pt-BR', {
     style: 'currency',
     currency: 'USD',
@@ -20,7 +20,7 @@ function converterParaEuro() {
   var valor = valorElemento.value;
   var valorNumericoEmReal = parseFloat(valor);
 
-  var valorEmEuro = valorNumericoEmReal * 5.52;
+  var valorEmEuro = valorNumericoEmReal / 5.52;
   valorEmEuro = valorEmEuro.toLocaleString('pt-BR', {
     style: 'currency',
     currency: 'EUR',
