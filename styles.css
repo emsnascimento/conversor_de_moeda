@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 400px;
+  background-image: rl(
+    'https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png'
+  );
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  background: #fcf9d8;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #fdf4c8;
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  padding: 9px;
+  height: 38px;
+}
+
+#dolar {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  cursor: pointer;
+  background: #00ccbe;
+  transition: 0.3s ease;
+}
+
+#euro {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  cursor: pointer;
+  background: #5cceee;
+  transition: 0.3s ease;
+}
+
+#bitcoin {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  cursor: pointer;
+  background: #f8db57;
+  transition: 0.3s ease;
+}
+
+#valorConvertido {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 135px;
+}
