@@ -49,6 +49,13 @@ body {
   right: 10px;
 }
 
+.github-logo{
+  width: 40px;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+
 input {
   margin: 12px;
   padding: 6px;
